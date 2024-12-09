@@ -1,0 +1,48 @@
+/* INTRODUÇÃO*/
+.introdução-i {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.introdução img {
+  max-width: 100%;
+  display: block;
+}
+
+.infos {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+
+  text-transform: uppercase;
+  justify-content: center;
+  font-size: 28px;
+  gap: 150px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.infos a {
+  color: #393839;
+  padding: 20px;
+
+  max-width: 100%;
+  background-color: #858585;
+  border-radius: 1px;
+}
+
+.infos a:hover {
+  color: #faf7f7;
+  background-color: #393839;
+  transition: 0.4s;
+}
+
+@media (max-width: 1300px) {
+  .infos {
+    font-size: 20px;
+    gap: 60px;
+    margin-top: 80px;
+  }
+}

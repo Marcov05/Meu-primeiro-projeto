@@ -1,3 +1,9 @@
-p {
-  color: blue;
-}
+@import "./global/global.css";
+
+@import "./global/header.css";
+
+@import "./home/introducao.css";
+
+@import "./home/navegacao.css";
+
+@import "./texto/texto.css";

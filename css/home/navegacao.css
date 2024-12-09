@@ -1,0 +1,155 @@
+.informacao {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  max-width: 1730px;
+  justify-content: start;
+  margin-right: auto;
+}
+
+.informacao h1 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1730px;
+  justify-content: start;
+  margin-left: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: #393839;
+  font-weight: bold;
+}
+
+.informacao {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.informacao img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.informacao p {
+  color: #393839;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 10px 35px;
+  line-height: 35px;
+}
+
+.informacao button {
+  color: #858585;
+}
+
+.informacao button:hover {
+  color: #393839;
+  text-decoration: underline;
+  transition: 0.1s;
+}
+
+.frase {
+  color: #393839;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 35px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.termos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: goldenrod;
+  margin-top: 70px;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.termos :hover {
+  color: #393839;
+  text-decoration: underline;
+  transition: 0.4s;
+}
+
+.voltar {
+  display: flex;
+  justify-content: end;
+  padding: 30px;
+  color: #faf7f7;
+}
+
+.voltar a {
+  background-color: goldenrod;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.voltar a:hover {
+  background-color: rgb(173, 132, 28);
+  color: #d1d1d1;
+  transition: 0.2s;
+}
+
+.rodape {
+  background-color: #393839;
+  color: #faf7f7;
+  padding: 30px;
+  text-align: center;
+}
+
+.rodape button {
+  padding: 5px 15px;
+}
+.rodape button:hover {
+  color: goldenrod;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+/*  !!!!!!!!!!!!!!!RESPONSIVO !!!  !!!!!  !!!!!  !!!*/
+
+@media (max-width: 1300px) {
+  .sub {
+    font-size: 45px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1170px) {
+  .informacao h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 780px) {
+  .informacao {
+    padding: 0px;
+  }
+  .infos {
+    padding: 0px;
+    gap: 20px;
+  }
+
+  .infos a {
+    font-size: 15px;
+    font: bold;
+    padding: 13px 7px;
+  }
+
+  .informacao h1 {
+    font-size: 20px;
+  }
+}
