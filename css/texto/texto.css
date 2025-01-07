@@ -25,7 +25,6 @@ h2 {
 
 .condicoes {
   display: grid;
-
   grid-template-columns: 2fr 2fr;
 }
 
@@ -85,8 +84,15 @@ h2 {
   }
 }
 @media (max-width: 780px) {
+  .condicoes {
+    grid-template-columns: 1fr;
+  }
+
+  .saber {
+    font-size: 12px;
+  }
   .condicoes h2 {
-    font-size: 15px;
+    font-size: 18px;
     padding: 10px;
   }
 }
